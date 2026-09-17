@@ -8845,7 +8845,7 @@ That failed because `uv` was resolving packages from an unrelated internal mirro
 <!-- transcript-session: 40f7a965-d945-43c9-b382-fbfe19ecc128 | 2026-09-17T19:49:20.435Z -->
 ## Session `40f7a965` — 2026-09-17 19:49:20
 
-*3 user turns. Tool outputs and reasoning omitted.*
+*4 user turns. Tool outputs and reasoning omitted.*
 
 **User:**
 hey
@@ -8876,5 +8876,11 @@ Laurice Jimu
 - 🔧 `Edit` — /Users/laurice/comp440-hw0/WRITEUP.md
 - 🔧 `Bash` — Commit name and date
 Setup is done. Part 1 is current — open `human_part1.py` and work through it on your own. I'm here if you hit an error.
+
+**User:**
+am i supposed to know where the part 1 questoions are based off
+
+**Claude:**
+They're in `WRITEUP.md` under "Part 1. Basic rating statistics" — and the comments inside `human_part1.py` repeat them. Both say what each section (a), (b), (c), (d) is asking for.
 
 <!-- end-session: 40f7a965-d945-43c9-b382-fbfe19ecc128 -->
