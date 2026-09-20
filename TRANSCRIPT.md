@@ -8884,3 +8884,22 @@ am i supposed to know where the part 1 questoions are based off
 They're in `WRITEUP.md` under "Part 1. Basic rating statistics" — and the comments inside `human_part1.py` repeat them. Both say what each section (a), (b), (c), (d) is asking for.
 
 <!-- end-session: 40f7a965-d945-43c9-b382-fbfe19ecc128 -->
+
+<!-- transcript-session: 38591a7e-08dd-47cd-a71a-59397b420481 | 2026-09-20T20:41:58.650Z -->
+## Session `38591a7e` — 2026-09-20 20:41:58
+
+*1 user turns. Tool outputs and reasoning omitted.*
+
+**User:**
+help what do i do next in the assignemnt
+
+**Claude:**
+Let me check where you are.
+- 🔧 `Bash` — Check git log to determine current assignment progress
+You have setup done (`Name and date` commit) but no `Parts 1-3 finished` commit. You're in **Parts 1–3**.
+
+Open the assignment README to see what Parts 1, 2, and 3 ask you to do, then start on Part 1. If you hit any errors running the code, paste them here and I'll help you read them.
+
+What would you like to start with?
+
+<!-- end-session: 38591a7e-08dd-47cd-a71a-59397b420481 -->
