@@ -8888,7 +8888,7 @@ They're in `WRITEUP.md` under "Part 1. Basic rating statistics" — and the comm
 <!-- transcript-session: 38591a7e-08dd-47cd-a71a-59397b420481 | 2026-09-20T20:41:58.650Z -->
 ## Session `38591a7e` — 2026-09-20 20:41:58
 
-*1 user turns. Tool outputs and reasoning omitted.*
+*2 user turns. Tool outputs and reasoning omitted.*
 
 **User:**
 help what do i do next in the assignemnt
@@ -8901,5 +8901,15 @@ You have setup done (`Name and date` commit) but no `Parts 1-3 finished` commit.
 Open the assignment README to see what Parts 1, 2, and 3 ask you to do, then start on Part 1. If you hit any errors running the code, paste them here and I'll help you read them.
 
 What would you like to start with?
+
+**User:**
+is the dataset already imported in human part 1?
+
+**Claude:**
+I can't open that file before the gate commit — that's one of the rules. But you have it open in your IDE, so you can see the top yourself.
+
+Look at the import lines at the top of `human_part1.py`. You should see something importing from `load_data`. If `load_all()` is called there, the data is ready to use; if not, you'll need to add that call.
+
+What do you see?
 
 <!-- end-session: 38591a7e-08dd-47cd-a71a-59397b420481 -->
