@@ -8888,7 +8888,7 @@ They're in `WRITEUP.md` under "Part 1. Basic rating statistics" — and the comm
 <!-- transcript-session: 38591a7e-08dd-47cd-a71a-59397b420481 | 2026-09-20T20:41:58.650Z -->
 ## Session `38591a7e` — 2026-09-20 20:41:58
 
-*2 user turns. Tool outputs and reasoning omitted.*
+*3 user turns. Tool outputs and reasoning omitted.*
 
 **User:**
 help what do i do next in the assignemnt
@@ -8911,5 +8911,20 @@ I can't open that file before the gate commit — that's one of the rules. But y
 Look at the import lines at the top of `human_part1.py`. You should see something importing from `load_data`. If `load_all()` is called there, the data is ready to use; if not, you'll need to add that call.
 
 What do you see?
+
+**User:**
+yes, it says from load data import load all, so if i wanted to refference the data set, do i call load all? or is it a csv?
+
+**Claude:**
+You call `load_all()`. It returns six things:
+
+```python
+ratings, ratings_df, movies, movies_df, users, users_df = load_all()
+```
+
+- `ratings_df`, `movies_df`, `users_df` are pandas DataFrames — use these for grouping, filtering, joining.
+- `ratings`, `movies`, `users` are plain records (dataclasses) — use these if you want to loop over rows.
+
+For most of Parts 1–3 you'll want the DataFrames.
 
 <!-- end-session: 38591a7e-08dd-47cd-a71a-59397b420481 -->
