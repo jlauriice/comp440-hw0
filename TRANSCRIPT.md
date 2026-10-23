@@ -9014,7 +9014,7 @@ uv run python human_part1.py
 <!-- transcript-session: 212d75c8-b90e-487f-8adf-75e929ad05f3 | 2026-10-23T03:22:57.458Z -->
 ## Session `212d75c8` — 2026-10-23 03:22:57
 
-*5 user turns. Tool outputs and reasoning omitted.*
+*6 user turns. Tool outputs and reasoning omitted.*
 
 **User:**
 is this a forked version of the original hw0?
@@ -9081,5 +9081,20 @@ I'll leave `uv.lock` uncommitted for now. Its content already matches the templa
 You're on Parts 1–3. Those are yours to write. Until you commit them, I can only help with installing things and reading error messages.
 
 When something crashes, paste the error and I'll tell you what it means and what to change. When all three parts are done, tell me. I'll then run `run_all.py` and list any `XXXX` slots still left in `WRITEUP.md`.
+
+**User:**
+where are the parts?
+
+**Claude:**
+- 🔧 `Bash` — List repository files
+Here's where each part lives:
+
+- **The assignment:** [README.md](README.md) explains the three parts and what each one asks.
+- **Your code:** [human_part1.py](human_part1.py), [human_part2.py](human_part2.py), [human_part3.py](human_part3.py), one file per part.
+- **Your written answers:** [WRITEUP.md](WRITEUP.md). Fill in every `XXXX` above the Part 4 heading.
+- **Data reference:** [load_data.py](load_data.py) loads the data. `load_all()` returns the ratings, movies and users, both as plain records and as DataFrames. [FILES.md](FILES.md) describes the raw files.
+- **Run a part:** `uv run python human_part1.py`. To run all three at once: `uv run python run_all.py`.
+
+Git shows `human_part1.py` as modified, so it looks like you've already started Part 1. Start with the README if you haven't read it yet.
 
 <!-- end-session: 212d75c8-b90e-487f-8adf-75e929ad05f3 -->
