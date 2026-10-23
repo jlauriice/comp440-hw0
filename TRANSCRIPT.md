@@ -9014,7 +9014,7 @@ uv run python human_part1.py
 <!-- transcript-session: 212d75c8-b90e-487f-8adf-75e929ad05f3 | 2026-10-23T03:22:57.458Z -->
 ## Session `212d75c8` — 2026-10-23 03:22:57
 
-*14 user turns. Tool outputs and reasoning omitted.*
+*15 user turns. Tool outputs and reasoning omitted.*
 
 **User:**
 is this a forked version of the original hw0?
@@ -9178,5 +9178,15 @@ Okay, I've stopped and won't run anything else. What's up?
 
 **User:**
 okay what's next
+
+**Claude:**
+Next is finishing Parts 1–3 on your own: the code in the three `human_part*.py` files and your answers in `WRITEUP.md`. Start by reading the top of `human_part1.py`, which lists what it must print.
+
+When you're ready, run `git push` to back your commits up to your fork.
+
+If something crashes, paste the error. When all three parts are written, tell me and I'll run the check.
+
+**User:**
+where do i run git push
 
 <!-- end-session: 212d75c8-b90e-487f-8adf-75e929ad05f3 -->
