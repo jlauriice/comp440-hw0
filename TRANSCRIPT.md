@@ -9014,7 +9014,7 @@ uv run python human_part1.py
 <!-- transcript-session: 212d75c8-b90e-487f-8adf-75e929ad05f3 | 2026-10-23T03:22:57.458Z -->
 ## Session `212d75c8` — 2026-10-23 03:22:57
 
-*19 user turns. Tool outputs and reasoning omitted.*
+*20 user turns. Tool outputs and reasoning omitted.*
 
 **User:**
 is this a forked version of the original hw0?
@@ -9262,5 +9262,23 @@ That doesn't mean you have a lot left. I'm not allowed to open your part files b
 The quickest way to find out is the gate check. I run `run_all.py`, paste the output, and list every `XXXX` still blank in `WRITEUP.md`. It only shows what runs and what's missing, never whether an answer is right. It doesn't commit anything unless you then say you're ready.
 
 Should I run it now?
+
+**User:**
+<ide_opened_file>The user opened the file /Users/laurice/comp440-hw0/human_part2.py in the IDE. This may or may not be related to the current task.</ide_opened_file>
+
+reorient this for me. How shuld i systemattically go about this
+
+**Claude:**
+Here's a systematic way through it:
+
+1. **Read the brief for each part.** The top of each `human_part*.py` says what it must print. The matching section of `WRITEUP.md` shows which `XXXX` slots you have to fill.
+2. **Get Part 1 running end to end.** Run `uv run python human_part1.py` often. Write each answer into `WRITEUP.md` as soon as the script prints it, and note anything you got stuck on, because the rubric rewards that.
+3. **For Parts 2 and 3, decide before you code.** Write your rule (Part 2) or your adjective and definition (Part 3) in a sentence, plus what you rejected. Then code that sentence.
+4. **Commit after each part** as a save point, for example `git commit -am "Part 2 draft"`.
+5. **When all three run, tell me.** I'll run the gate check.
+
+If something crashes, paste the error.
+
+Which part are you working on right now?
 
 <!-- end-session: 212d75c8-b90e-487f-8adf-75e929ad05f3 -->
