@@ -9014,7 +9014,7 @@ uv run python human_part1.py
 <!-- transcript-session: 212d75c8-b90e-487f-8adf-75e929ad05f3 | 2026-10-23T03:22:57.458Z -->
 ## Session `212d75c8` — 2026-10-23 03:22:57
 
-*30 user turns. Tool outputs and reasoning omitted.*
+*31 user turns. Tool outputs and reasoning omitted.*
 
 **User:**
 is this a forked version of the original hw0?
@@ -9528,5 +9528,24 @@ how did we get 7 women
 **Claude:**
 I didn't give you that number, and neither script prints it. My guess is it was worked out from Claude's "89.2% of its 65 raters are male," but I can't tell where it came from. Here's a direct count:
 - 🔧 `Bash` — Count raters of Brain Candy by gender
+The count gives *Kids in the Hall: Brain Candy* (movie 108) **7 female raters and 58 male**, 65 in total. So the 7 is correct.
+
+It still has no named source, because this was a one-off command I ran in my terminal, not one of your scripts. You can cite it as a check you ran, quoting the command above. Or you can add a print line to a script of your own that isn't one of the graded `human_part*.py` files. How you cite it is up to you.
+
+What do you want to do about the source?
+
+**User:**
+Exactly
+
+**Claude:**
+Okay, so the 7 came from Claude's 89.2% of 65. That's arithmetic, and it happens to agree with the direct count, 7 F and 58 M.
+
+How you cite it is up to you. Some options:
+- "Computed from Claude's output: 89.2% of 65 raters male."
+- "Counted directly with a check I ran," quoting the command.
+
+Once that's settled, the 6 **Working with Claude** slots are next.
+
+Which way do you want to cite the 7?
 
 <!-- end-session: 212d75c8-b90e-487f-8adf-75e929ad05f3 -->
