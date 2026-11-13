@@ -15,10 +15,11 @@ def human_part1(ratings, ratings_df, movies, movies_df, users, users_df):
 
     print("== (a) ==")
     # (a) How many ratings, users, and movies are there, and how are ratings distributed across 1-5 stars?
-    num_ratings = len(ratings_df)
-    num_users = ratings_df["user_id"].nunique()
-    num_movies = movies_df["movie_id"].nunique()
-    print(num_ratings)
+    print(f"Total ratings: {len(ratings_df)}")
+    print(f"Unique users: {ratings_df['user_id'].nunique()}")
+    print(f"Unique movies: {movies_df['movie_id'].nunique()}")
+    print("\nRating distribution:")
+    print(ratings_df['rating'].value_counts().sort_index())
     print("== (b) ==")
 
     # (b) What is the median number of ratings per user, and how many users have 100 or more ratings?
