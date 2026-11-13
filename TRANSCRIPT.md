@@ -9014,7 +9014,7 @@ uv run python human_part1.py
 <!-- transcript-session: 212d75c8-b90e-487f-8adf-75e929ad05f3 | 2026-10-23T03:22:57.458Z -->
 ## Session `212d75c8` — 2026-10-23 03:22:57
 
-*37 user turns. Tool outputs and reasoning omitted.*
+*38 user turns. Tool outputs and reasoning omitted.*
 
 **User:**
 is this a forked version of the original hw0?
@@ -9633,5 +9633,22 @@ Done. The repo is now **public** at https://github.com/jlauriice/comp440-hw0. To
 Last step is the form: https://forms.gle/DMHxZsafEr92fTfK6
 
 Have you submitted it?
+
+**User:**
+<pasted_content id="6af7">
+What the activity asks you to submit
+*
+Start with the activity's name, then what its instructions say to hand in: a URL (a GitHub repo, a doc, a page) or text.
+</pasted_content id="6af7">
+
+**Claude:**
+That's a field on the form. From the README:
+
+- **The activity's name:** COMP 440, HW0: Working With Data and Claude — An AI and Human Analyst
+- **What it says to hand in:** your repo. The README says to commit, push, and then fill in the form, so the thing you're handing in is your GitHub repo URL: https://github.com/jlauriice/comp440-hw0
+
+So the field could read something like: "COMP 440 HW0: Working With Data and Claude. Submission is my GitHub repo: https://github.com/jlauriice/comp440-hw0". The wording is up to you.
+
+Tell me once you've submitted the form.
 
 <!-- end-session: 212d75c8-b90e-487f-8adf-75e929ad05f3 -->
