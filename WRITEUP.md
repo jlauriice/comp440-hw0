@@ -120,60 +120,66 @@ or your answers.
 
 **Did its numbers for Part 1 match yours? If not, which, and what did you find?**
 
-XXXX
+Yes, they match perfectly.
 
 ## Part 5. Comparing the best movie
 
 **Claude's rule:**
 
-XXXX
+A Bayesian-adjusted average that shrinks each movie's raw mean toward the global mean (3.530) in proportion to how few ratings it has, using a weight factor of m = 20.
 
 **Read what Claude wrote about its rule. Does it anywhere admit the rule was a choice, and that a different rule was possible? Or does it give its answer as simply the answer? Quote the sentence that decides it:**
 
-XXXX
+Claude does not admit this was a subjective choice; it presents its methodology as an objective or rather factual definition of quality. The sentence that decides this is: "A raw mean over a handful of ratings is noisy (a single 5-star rating gives a 'perfect' 5.0 average), so 'best' should reward movies that are both highly rated and rated by a lot of people." It uses the word "should" to state its opinion as an absolute rule.
 
 **Your Part 2 top 10 and Claude's Part 2 top 10 — not the Part 1(d) lists. Where do they differ, and why?**
 
-XXXX
+They differ because we penalize different things. Claude’s Bayesian rule penalizes a lack of ratings. For example, Claude ranks Schindler’s List as #1 because its massive rating count (298) easily overcomes the Bayesian penalty, while it pushes A Close Shave down to #4 because it only has 112 ratings. My rule (Consensus Score) penalizes polarization (standard deviation). My rule pushes Casablanca and A Close Shave to the very top because their low standard deviations prove universal agreement, regardless of whether they have 100 ratings or 300.
 
 **Better for what purpose? Name a situation where your rule is the right one and a situation where Claude's is. At most 150 words. You may conclude yours, its, or neither:**
 
-XXXX
+My rule would be better if say I was organizing a movie night with a diverse friend group because it actively filters out polarizing movies and only picks the universally agreed upon gems. 
 
-## Part 6. Comparing the most ___ movie
+Claude’s Bayesian rule is better for a global recommendation engine like IMDb's top list. They probably want high statistical confidence that a movie is historically great before recommending it to millions.
+
+Ultimately, neither is objectively better. They just serve different purposes: mine minimizes risk, while Claude's maximizes statistical confidence.
+
+## Part 6. Comparing the most Bro-Centric movie
 
 **Claude's definition:**
 
-XXXX
+A movie with at least 50 total ratings that has the highest percentage of male raters.
 
 **Is Claude's film in your top 5?**
 
-XXXX
+No, and its actually mathematically impossible for Claude's #1 film (Kids in the Hall: Brain Candy) to be in my top 5 because it had only 7 female raters (89.2% of its 65 raters are male based off the output) . My rule at least 30 ratings from men and 30 ratings from women to calculate a fair comparison. 
 
 **What Claude's definition sees that yours does not, and the reverse. At most 150 words:**
 
-XXXX
+Claude’s definition captures audience composition. It sees movies that naturally attract a male demographic while failing to attract a female audience which is exactly the rule I considered and rejected in Part 3. However, its blind spot is reception: a movie might be watched by 90% men, but the few women who do watch it might rate it just as highly as the men do.
+
+My definition captures gendered reception. It sees movies where both men and women watched the film, but men loved it while women disliked it. My blind spot is extreme demographic skew: because I require at least 30 female ratings for a reliable baseline, that filters out hyper-niche "bro-centric" movies that almost no women watched in the first place.
 
 ## Working with Claude
 
 **What you asked Claude for during Parts 1–3** (debugging and installing only — say what you
 got stuck on)**:**
 
-XXXX
+I mostly asked about where I was in comparison to what I was supposed to be doing. And asked questions to help orient me on how to go about the exercise.
 
 **Something Claude said that you could not verify, and why. Or "none," and how you checked:**
 
-XXXX
+None really, it told me I hadn't completed some of the tasks because there were still some placeholder texts in the writeup and that was correct. 
 
 **What you would do differently next time, in 3–5 sentences:**
 
-XXXX
+I would read the READ.Me more thoroughly. I would also ask Claude for an overall bird's eye view of what's required of me. This is to help my orientation of the task as a whole.
 
 **Where did this assignment slow you down for a reason that was its fault, not yours? Point at
 the step. Or "nowhere." One or two sentences:**
 
-XXXX
+Just the switching between where I need to code and where I need to write but once I got the hang of that it became easy.
 
-**Hours spent:** XXXX
+**Hours spent:** 7 to 8
 
-**Anyone who helped you, or "no one":** XXXX
+**Anyone who helped you, or "no one":** Shilad by allowing me to hand this in late, giving me the space and time to actually put energy and effort into it. Thank you so much!
