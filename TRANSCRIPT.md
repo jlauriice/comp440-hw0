@@ -9014,7 +9014,7 @@ uv run python human_part1.py
 <!-- transcript-session: 212d75c8-b90e-487f-8adf-75e929ad05f3 | 2026-10-23T03:22:57.458Z -->
 ## Session `212d75c8` — 2026-10-23 03:22:57
 
-*20 user turns. Tool outputs and reasoning omitted.*
+*22 user turns. Tool outputs and reasoning omitted.*
 
 **User:**
 is this a forked version of the original hw0?
@@ -9280,5 +9280,28 @@ Here's a systematic way through it:
 If something crashes, paste the error.
 
 Which part are you working on right now?
+
+**User:**
+<ide_selection>The user selected the lines 16 to 17 from /Users/laurice/comp440-hw0/WRITEUP.md:
+**(b) What is the median number of ratings per user, and how many users have 100 or more ratings?**
+
+
+This may or may not be related to the current task.</ide_selection>
+
+Okay what is part 2 asking me to do
+okay what is part 2 asking me to do
+
+**Claude:**
+Part 2 asks: **what is the best movie?** The README says there's no single right answer. It depends on how you combine 943 people's ratings into one ranking.
+
+You need to:
+
+1. **Choose a rule.** It has to be a method precise enough to code, which turns every movie's ratings into a score.
+2. **Code it** in `human_part2.py` and print the ranking the script asks for. The top of that file says exactly what to print.
+3. **Defend it** in `WRITEUP.md`: what your rule gains, what it loses, and which other rules you considered and rejected, with your reasons.
+
+For full credit (20 points), the rule has to be precise enough to code, and your defense has to name both what it gains and what it costs.
+
+Before you write any code, what's your instinct? What should make a movie "the best"?
 
 <!-- end-session: 212d75c8-b90e-487f-8adf-75e929ad05f3 -->
